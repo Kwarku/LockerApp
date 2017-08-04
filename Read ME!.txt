@@ -1,0 +1,34 @@
+Hello User
+This application its for you!
+
+You can change every single button image and background image.
+If You want do this just:
+1. Open "src" folder
+2. Open "image" folder
+3. Take any ".png" file and give it to him the same name like now it's
+    -background.png         -> it's background image
+    -Button(Number).png     -> it's background of every single button
+    -ButtonClear.png        -> it's cleaning button
+    -ButtonEnter.png        -> it's enter button
+4. This is end. Now you have you own application look :)
+
+Off course you can change sounds:
+1. Open "sounds" folder
+2. Take any sounds effects in ".wav" format
+3. Give it name like original files. ("click.wav" "error.wav" "lose.wav" "win.wav")
+
+Now take a look about movie. The movie shows when user guess your code.
+If you want movie:
+1. Take movie file in format ".mp4"
+2. Give it name " WinMovie.mp4 "
+3. Put your movie on your own locale disk C:
+    -don't use any folder
+    -don't change file name
+4. It's works (i hope :D )
+
+
+Now take a look about more important things.
+Naturally you want change PRIVATE CODE, it's super easy :
+1. Open "PrivateCode.txt" file
+2. Enter your code to second line of this file.
+3. First line it's just a help.
