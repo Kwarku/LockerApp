@@ -33,18 +33,18 @@ public class OpenFiles {
         try (
                 AudioInputStream input = AudioSystem.getAudioInputStream(file)
                 ){
-            Clip clip = AudioSystem.getClip();
-            clip.open(input);
-            clip.start();
-        } catch (UnsupportedAudioFileException e) {
-            System.err.println("Wrong music file FORMAT!!!");
-            e.printStackTrace();
-        } catch (IOException e) {
-            System.err.println("File dosent existed ");
-            e.printStackTrace();
-        } catch (LineUnavailableException e) {
-            System.err.println("Wrong music file PATH !!");
-            e.printStackTrace();
+                Clip clip = AudioSystem.getClip();
+                clip.open(input);
+                clip.start();
+            } catch (UnsupportedAudioFileException e) {
+                System.err.println("Wrong music file FORMAT!!!");
+                e.printStackTrace();
+            } catch (IOException e) {
+                System.err.println("File dosent existed ");
+                e.printStackTrace();
+            } catch (LineUnavailableException e) {
+                System.err.println("Wrong music file PATH !!");
+                e.printStackTrace();
         }
     }
 }

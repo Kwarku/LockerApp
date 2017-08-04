@@ -307,7 +307,7 @@ File error = new File(ERROR_SOUND);
         anchorPane.setStyle("-fx-background-color: black;");
 
             //open movie file
-        Media winMovie = new Media("file:/WinMovie.mp4");
+        Media winMovie = new Media("file:/C:WinMovie.mp4");
         MediaPlayer player = new MediaPlayer(winMovie);
         mediaView.setMediaPlayer(player);
         mediaView.setFitHeight(1000);
