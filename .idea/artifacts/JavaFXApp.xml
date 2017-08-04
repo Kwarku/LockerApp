@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="javafx" name="LockerAppJar">
-    <output-path>$PROJECT_DIR$/jar</output-path>
+  <artifact type="javafx" name="JavaFXApp">
+    <output-path>$PROJECT_DIR$</output-path>
     <properties id="javafx-properties">
       <options>
         <option name="appClass" value="sample.Main" />
