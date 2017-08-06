@@ -14,7 +14,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("view/MainView.fxml"));
         primaryStage.setTitle("Hello User");
-        /*primaryStage.setFullScreen(true);*/
+        primaryStage.setFullScreen(true);
         Scene scene = new Scene(root, 400, 600);
         File f = new File("style.css");
         scene.getStylesheets().add("file:"+ f);

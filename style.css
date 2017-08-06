@@ -2,11 +2,10 @@
     /* main container  */
 #Container{
     -fx-background-image: url("image/background.png");
-    -fx-background-position: center;
+     -fx-background-position: center;
     -fx-background-size: cover;
     -fx-background-color: transparent;
     -fx-background-repeat: no-repeat;
-
 }
 
     /* each button in turn */
@@ -46,13 +45,25 @@
 #ButtonClear{
     -fx-background-image: url("image/ButtonClear.png");
 }
+
 /* All buttons   */
 .button{
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
     -fx-background-size: 90% 90%;
     -fx-background-color: transparent;
-    -fx-opacity: 90%;
+    -fx-opacity: 75%;
+}
+
+/* Password Field */
+#PassField{
+    -fx-background-color: #bd081c;
+    -fx-background-radius: 70% 50%;
+}
+
+/* mouse on password field */
+#PassField:hover{
+-fx-background-color: #4c75a3;
 }
 
 /* mouse on button */
